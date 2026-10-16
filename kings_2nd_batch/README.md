@@ -9,3 +9,4 @@
 7. plink_IBD.sh //
 8. identify_related.R // 
 9. plink_remove_related.sh // 
+10. 
