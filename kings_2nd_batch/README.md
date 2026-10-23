@@ -19,8 +19,11 @@ Sample Relatedness
 9. identify_related.R // 
 10. plink_remove_related.sh //
 
-Variant Missingness
+Ancestry Outliers
 11. 
+
+Variant Missingness
+11. plink_QC_variants.sh //
 
 
 Split Data
