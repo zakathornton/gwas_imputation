@@ -1,4 +1,4 @@
-#
+README for 
 
 Basic QC
 1. plink_QC.sh //
