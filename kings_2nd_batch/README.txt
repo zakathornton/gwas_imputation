@@ -1,26 +1,30 @@
 README for 
 
 Basic QC
-1. plink_QC.sh //
+1. plink_QC.sh // Perform standard QC checks on the raw data.
 
 Sample Missingness
-3. plink_QC_sample_missing.sh //
+2. plink_sample_missing.sh // Remove any samples with missingness >3%.
+
+Variant Missingness
+3. plink_variant_missing.sh // Remove any variants with missingness >3%.
 
 LD Pruning
-4. plink_prune.sh //
+3. plink_prune.sh // Perform LD pruning to determine independent variants.
+4. plink_
 
 Sample Heterozygosity
-5. plink_het.sh //
-6. identify_het_outliers.R //
-7. plink_remove_het_outliers.sh //
+4. plink_het.sh // 
+5. identify_het_outliers.R // 
+6. plink_remove_het_outliers.sh // 
 
 Sample Relatedness
-8. plink_IBD.sh //
-9. identify_related.R // 
-10. plink_remove_related.sh //
+7. plink_IBD.sh //
+8. identify_related.R // 
+9. plink_remove_related.sh //
 
 Ancestry Outliers
-11. 
+10. 
 
 Variant Missingness
 11. plink_QC_variants.sh //
