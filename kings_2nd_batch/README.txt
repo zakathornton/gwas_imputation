@@ -13,21 +13,33 @@ Variant Missingness
 4. identify_rogue_vars.R // Identify any 'rogue' variants - that is, variants which are labelled as chromosome 0.
 5. plink_remove_rogue_vars.sh // Remove the rogue variants.
 
-Rename variants
-6. plink_rename_vars.sh // Rename the variants using the chr:pos nomenclature, to match the GRCh38 reference genome (for later merging).
-
 LD Pruning
-7. plink_prune.sh // Perform LD pruning to determine independent variants.
+6. plink_prune.sh // Perform LD pruning to determine independent variants, for further QC.
 
 Sample Heterozygosity
-8. plink_het.sh // Calculate heterogeneity rates for pruned variants.
-9. identify_het_outliers.R // Identify any samples which are +/- 3SDs from the mean.
-10. plink_remove_het_outliers.sh // Remove outlier samples.
+7. plink_het.sh // Calculate heterogeneity rates for pruned variants.
+8. identify_het_outliers.R // Identify any samples which are +/- 3SDs from the mean.
+9. plink_remove_het_outliers.sh // Remove outlier samples.
 
 Sample Relatedness
 11. plink_IBD.sh //
 12. identify_related.R // 
 13. plink_remove_related.sh //
+
+~~ PCA WORKING DATASET ~~
+
+Biallelic SNPs
+14. plink_biallelic_only.sh // Restrict dataset to biallelic variants only.
+
+Rename variants
+15. create_var_names.R // Create a list of new variant IDs using the chr:pos nomenclature.
+16. plink_rename_vars.sh // Rename the variants using the chr:pos nomenclature, to match the GRCh38 reference genome (for later merging).
+
+Merge Datasets
+16. // Merge the Kings biallelic data and the GRCh38 reference genome to 
+
+
+
 
 Ancestry Outliers (PCA)
 14. merge_dat_reference.sh //
@@ -38,6 +50,5 @@ Ancestry Outliers (PCA)
 #12. filter_vars_by_chr.R //
 #13. plink_split_by_chr.sh //
 #14. plink_batch_split_by_chr.sh // 
-
 
 
