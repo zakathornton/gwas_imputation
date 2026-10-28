@@ -35,8 +35,14 @@ Rename variants
 15. create_var_names.R // Create a list of new variant IDs using the chr:pos nomenclature.
 16. plink_rename_vars.sh // Rename the variants using the chr:pos nomenclature, to match the GRCh38 reference genome (for later merging).
 
+Duplicate variants
+17. 
+18. 
+
+
 Merge Datasets
 16. // Merge the Kings biallelic data and the GRCh38 reference genome to 
+
 
 
 
