@@ -41,8 +41,10 @@ Duplicate variants
 
 
 Merge Datasets
-16. // Merge the Kings biallelic data and the GRCh38 reference genome to 
+16. // Merge the Kings biallelic data and the GRCh38 reference genomes - use the variants that are not duped 
 
+Prune Datasets
+17.
 
 
 
