@@ -36,27 +36,23 @@ Rename variants
 16. plink_rename_vars.sh // Rename the variants using the chr:pos nomenclature, to match the GRCh38 reference genome (for later merging).
 
 Duplicate variants
-17. 
-18. 
-
+17. identify_dup_vars.R // Identify any variants which have duplicate names following variant renaming.
+18. plink_remove_dups.sh // Remove any duplicated variants.
 
 Merge Datasets
-16. // Merge the Kings biallelic data and the GRCh38 reference genomes - use the variants that are not duped 
+19. identify_merge_vars.R // Identify the variants which are identical between both datasets.
+20. plink_merge.sh // Merge the Kings biallelic data and the GRCh38 reference genomes using the identical variants.
+21. plink_combine_merge.sh //
 
 Prune Datasets
-17.
-
-
-
+22. plink_merge_prune.sh // 
 
 Ancestry Outliers (PCA)
-14. merge_dat_reference.sh //
-15. plink_PCA.sh //
+23. plink_PCA.sh //
 
+~~ RETURN TO PRIMARY DATASET ~~
 
-#Split Data
-#12. filter_vars_by_chr.R //
-#13. plink_split_by_chr.sh //
-#14. plink_batch_split_by_chr.sh // 
+Ancestry Outliers (PCA)
+24.
 
 
