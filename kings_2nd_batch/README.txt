@@ -39,6 +39,9 @@ Duplicate variants
 17. identify_dup_vars.R // Identify any variants which have duplicate names following variant renaming.
 18. plink_remove_dups.sh // Remove any duplicated variants.
 
+Split by chromosome
+19. plink_extract_chr.sh // 
+
 Merge Datasets
 19. identify_merge_vars.R // Identify the variants which are identical between both datasets.
 20. plink_merge.sh // Merge the Kings biallelic data and the GRCh38 reference genomes using the identical variants.
