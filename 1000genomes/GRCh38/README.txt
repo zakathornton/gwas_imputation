@@ -14,3 +14,6 @@ Rename variants
 5. plink_rename_vars.sh //
 6. plink_batch_rename_vars.sh //
 
+Conversion
+7. vcf_to_plink.sh //
+8. batch_vcf_to_plink.sh // 
