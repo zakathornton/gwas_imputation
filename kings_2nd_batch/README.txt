@@ -46,13 +46,13 @@ Merge Datasets
 20. identify_merge_vars.R // Identify the variants which are identical between both datasets.
 21. plink_merge.sh // Merge the Kings biallelic data and the GRCh38 reference genomes using the identical variants.
 22. plink_batch_merge.sh // 
-22. plink_combine_merge.sh //
+23. plink_combine_merge.sh //
 
 Prune Datasets
-23. plink_merge_prune.sh // 
+24. plink_merge_prune.sh // 
 
 Ancestry Outliers (PCA)
-24. plink_PCA.sh //
+25. plink_PCA.sh //
 
 ~~ RETURN TO PRIMARY DATASET ~~
 
