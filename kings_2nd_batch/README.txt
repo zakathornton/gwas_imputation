@@ -57,6 +57,4 @@ Ancestry Outliers (PCA)
 ~~ RETURN TO PRIMARY DATASET ~~
 
 Ancestry Outliers (PCA)
-24.
-
-
+26.
